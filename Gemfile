@@ -17,7 +17,7 @@ gem 'sass-rails', '~> 5.0'
 #bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'
 #autoprefixer for rails
-gem 'autoprefixer-rails', '~> 6.3.7'
+gem 'autoprefixer-rails', '~> 6.6', '>= 6.6.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views

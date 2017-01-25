@@ -30,7 +30,7 @@
     </header>
 
     <% flash.each do |key, message| %>
-      <div class="text-center alert alert-<% key == 'notice' ? 'success': 'danger' %>" style="margin-top: 5%;">
+      <div class="text-center alert alert-<%= key == 'notice' ? 'success': 'danger' %>" style="margin-top: 5%;">
         <h2><%= message %></h2>
       </div>
     <% end %>
